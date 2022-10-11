@@ -30,3 +30,9 @@ jar {
         //provide manifest with such attributes as 'Implementation-Title', 'Implementation-Version'
     }
 }
+
+test {
+    useJUnitPlatform()
+}
+
+publishMavenPublicationToMavenLocal {}.mustRunAfter('build')

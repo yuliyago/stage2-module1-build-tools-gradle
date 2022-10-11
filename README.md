@@ -64,7 +64,7 @@ public class StringUtils {
 ### Task 3
 
 Now we will use the created util class:
-1. Create build.gradle in 'demo' and fill in group, version, repositories and required dependency;
+1. Open build.gradle in 'demo' and fill in group, version, repositories and required dependency;
 
 2. Provide required implementation:
 ```java

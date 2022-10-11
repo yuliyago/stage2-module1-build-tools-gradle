@@ -1,0 +1,7 @@
+//add everything here
+
+test {
+    useJUnitPlatform()
+}
+
+compileJava {}.dependsOn(':utils:publishToMavenLocal')
