@@ -1,0 +1,32 @@
+plugins {
+    // id for library
+    // id for maven to publish jar to local repository
+}
+
+java {
+// provide sourceCompatibility
+}
+
+repositories {
+// provide repository, where required dependencies are located
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+// provide groupId
+// provide artifactId
+// provide version
+
+            from components.java
+        }
+    }
+}
+
+//add Apache Apache Commons Lang 3.10 (or higher) dependency
+
+jar {
+    manifest {
+        //provide manifest with such attributes as 'Implementation-Title', 'Implementation-Version'
+    }
+}
